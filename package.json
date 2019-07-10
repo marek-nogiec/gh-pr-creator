@@ -1,0 +1,22 @@
+{
+  "name": "gh-pr-creator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Marek Nogiec <marek@nogiec.org>",
+  "scripts": {
+    "create": "node index"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.28.3",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
