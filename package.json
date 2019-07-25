@@ -1,11 +1,14 @@
 {
   "name": "gh-pr-creator",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "author": "Marek Nogiec <marek@nogiec.org>",
   "scripts": {
     "create": "node index"
+  },
+  "bin": {
+    "ghprcr": "index.js"
   },
   "dependencies": {
     "@octokit/rest": "^16.28.3",

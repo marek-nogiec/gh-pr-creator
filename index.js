@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('dotenv').config()
 const Octokit = require('@octokit/rest')
 
@@ -32,7 +34,7 @@ const main = async () => {
         repo,
         title: `${head} -> ${base}`,
         head,
-        base,
+        base
       })
     } catch (e) {
       console.log(`Couldn't create a PR for ${repo}`)
